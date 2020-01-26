@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Bootstrap Visualization Dashboard</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+      </head>
+      
+      <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="nav navbar-nav mr-auto">
+                
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+              </ul>
+        
+            </div>
+          </nav>	
+
+		  <div class= "background">
+			<div class="container">
+				<div class = "box1">
+					<div class="row">
+					<div class="col-md-1"></div>  
+					<div class="col-md-6">
+							<h1>Wind Speed</h1>
+							<img src="assets/images/Fig4.png" width="400" height="350">
+							<p>As shown, wind speeds tend to rarely vary the closer you are to the equator. As you move farther away, wind speeds have a larger variance between the points. </p>
+						</div>   
+						
+					<div class="col-md-4 sidebar">
+						<div class="row">
+						<div class="col-md-12">
+							<h1>Visualizations</h1>
+						</div>
+						</div>
+					
+						<div class="row">
+							<div class="col-md-3">    
+								<a href="max_temp.html"><img src="assets/images/Fig1.png" width="200px" height="150px"></a>
+							</div>
+							<div class="col-md-3"></div>
+							<div class="col-md-3">  
+								<a href="humidity.html"><img src="assets/images/Fig2.png" width="200px" height="150px"></a>
+							</div>
+							<div class="col-md-3"></div>  
+						</div>   
+						
+						<div class ="row">  
+						<div class="col-md-3">  
+							<a href="cloudiness.html"><img src="assets/images/Fig3.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+						<div class="col-md-3">     
+							<a href="wind_speed.html"><img src="assets/images/Fig4.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+						</div>    
+					</div>         
+					
+					<div class="col-md-1"></div>
+					</div>     
+				</div> 
+			</div>
+		</div>			  
+      </body>
+</html>
